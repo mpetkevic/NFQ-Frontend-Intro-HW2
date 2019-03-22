@@ -4,28 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Title</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="Content">
-    <div class="Paragraph Paragraph--red">
-      <h2>Red Block</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aut commodi dignissimos. Amet aut commodi
-        dignissimos
-        <a href="mailto:lorem@lorem.com">
-          lorem@lorem.com
-        </a>
+    <div class="Message Message--error">
+      <h2 class="Message-title">Incorrect email address.</h2>
+      <p class="Message-centerline">The email you entered does not belong to ane InterNations. Please try again</p>
+      <p>If you forgot the email address with which you registered, please
+        <a class="Message-link" href="mailto:support@internations.com">
+          request support
+        </a>.
       </p>
     </div>
-    <div class="Paragraph Paragraph--green">
-      <h2>Green Block</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aut commodi dignissimos. Amet aut commodi
-        dignissimos
-        <a href="mailto:lorem@lorem.com">
-          lorem@lorem.com
-        </a>
+    <div class="Message Message--success">
+      <h2 class="Message-title">Thank you</h2>
+      <p class="Message-centerline">You have succesfully sent the invitation at
+        <a class="Message-link" href="mailto:my@email.com">
+          my@email.com
+        </a>.
       </p>
+      <p>All you have to do now is accepting the invitation and start connecting with members of our community.</p>
     </div>
+    <button class="Button">Continue to next page</button>
   </div>
 </body>
 </html>

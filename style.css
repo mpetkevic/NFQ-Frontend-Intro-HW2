@@ -2,10 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
 }
 
 .Content {
-  width: 90%;
+  max-width: 800px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -15,23 +18,45 @@
   padding: 20px;
 }
 
-.Paragraph {
-  margin: 5px auto;
-  padding: 10px;
+.Message {
+  margin: 0px auto;
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 12px;
   border: 1px solid black;
-  border-right-width: 10px;
+  border-right-width: 20px;
   border-radius: 4px;
+  box-shadow: 0px 2px 11px -4px rgba(0,0,0,0.5);
 }
 
-.Paragraph--red {
-  border-color: red;
+.Message--error {
+  border-color: #EF4223;
 }
 
-.Paragraph--green {
-  border-color: green;
+.Message--success {
+  border-color: #1D8631;
 }
 
-.Paragraph h2 {
-  font-size: 20px;
-  margin-bottom: 5px;
+.Message-title {
+  font-weight: 700;
+}
+
+.Message-centerline {
+  margin: 12px 0;
+}
+
+.Message-link {
+  text-decoration: none;
+  color: #7AAAC5;
+}
+
+.Button {
+  align-self: flex-end;
+  text-transform: uppercase;
+  background-color: #24719F;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  box-shadow: 0px 2px 11px -4px rgba(0,0,0,0.5);
 }
