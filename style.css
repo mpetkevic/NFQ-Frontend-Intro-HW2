@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Content {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.Paragraph {
+  margin: 5px auto;
+  padding: 10px;
+  border: 1px solid black;
+  border-right-width: 10px;
+  border-radius: 4px;
+}
+
+.Paragraph--red {
+  border-color: red;
+}
+
+.Paragraph--green {
+  border-color: green;
+}
+
+.Paragraph h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
