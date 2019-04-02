@@ -70,4 +70,5 @@
   box-shadow: var(--main-box-shadow);
   cursor: pointer;
   text-decoration: none;
+  cursor: pointer;
 }
