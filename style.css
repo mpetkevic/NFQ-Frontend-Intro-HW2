@@ -2,6 +2,7 @@
   --main-box-shadow: 0px 2px 11px -4px rgba(0,0,0,0.5);
   --main-border-radius: 4px;
   --main-margin-top: 12px;
+  --main-width: 100%;
 }
 
 * {
@@ -25,8 +26,7 @@
 }
 
 .Message {
-  margin: 0 auto 30px;
-  width: 100%;
+  width: var(--main-width);
   padding: 12px;
   border: 1px solid black;
   border-right-width: 20px;
@@ -53,6 +53,11 @@
 .Link {
   text-decoration: none;
   color: #7AAAC5;
+}
+
+.Wrapper--marginBottom {
+  width: var(--main-width);
+  margin-bottom: 30px;
 }
 
 .Wrapper--right {
