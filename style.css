@@ -55,7 +55,7 @@
   color: #7AAAC5;
 }
 
-.Wrapper--left {
+.Wrapper--right {
   align-self: flex-end;
   margin-top: var(--main-margin-top);
 }
